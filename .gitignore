@@ -1,0 +1,5 @@
+echo "node_modules/" > .gitignore
+echo "yarn.lock" >> .gitignore
+echo "gitHubPassword.txt" >> .gitignore
+
+git add Procfile package.json server.js .gitignore
